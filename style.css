@@ -1,0 +1,91 @@
+html { 
+    background: url(background.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    padding: 20px;
+    padding-left: 600px;
+   
+}
+
+.box-1{
+    background-color: lightpink;
+    border:3px solid floralwhite;
+    padding: 10px;
+    padding-top: 0%;
+    margin: 20px;
+    margin-left: 300px;
+}
+
+.button{
+    color: paleturquoise
+    padding: 5px;
+    padding-left: 0%;
+    border: none;
+}
+
+.button:hover{
+    color: red;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 200px;
+    border-radius: 20%;
+}
+
+.my-form{
+    text-align: center;
+    padding: 20px;
+}
+
+.my-form .form-group{
+    margin-left: 300px;
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"]{
+    margin-left: 300px;
+    background-color: lightgrey;
+    color:lightslategray;
+    padding: 10px 15px;
+    border: dotted;
+}
+
+
+#sidebar{
+    position: fixed;
+    float: left;
+    width:25%;
+    background-color:powderblue;
+    color: white;
+    padding: 15px;
+    border:3px solid floralwhite;
+    box-sizing: border-box;
+    top:5%;
+}
+
+#main-footer{
+     margin-left: 300px;
+}
